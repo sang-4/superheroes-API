@@ -1,24 +1,51 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+---
 
-Things you may want to cover:
+## Author
+Allan Kiprop
+allan.kiprop@student.moringaschool.com
+0729250792
 
-* Ruby version
+---
+## Description
+This is a simple RAILS superheroes API project for my week 2 phase 4 code challenge at Moringa School. It is a simple API that allows you to create, read, update and delete superheroes(heroes, powers). To get started, clone the repo and run the following commands:
 
-* System dependencies
+```
+& cd superheroes-API
+& rails db:migrate db:seed
+& rails s
+```
+You can try all the CRUD operations in the following routes:
 
-* Configuration
+```
+& http://localhost:3000/heroes
+& http://localhost:3000/powers
+& http://localhost:3000/hero_powers
+```
+---
 
-* Database creation
+## Technologies Used
+* Ruby
+* Rails
+* sqlite3
+* Postman
 
-* Database initialization
+---
 
-* How to run the test suite
+## License
+MIT License
 
-* Services (job queues, cache servers, search engines, etc.)
+---
 
-* Deployment instructions
+## Acknowledgements
+* Moringa School
+* Stack Overflow
+* Google
+* GeekforGeeks
+* W3Schools
+* Ruby on Rails Guides
 
-* ...
+---
+
+This project is still in development and I will regularly be updating it untill it's fully operational(It's operational at the moment but some tasks may fail to run since I'm still learning and familiarising with the Ruby and Rails environment)
