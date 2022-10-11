@@ -1,0 +1,3 @@
+class HeroPowersController < ApplicationController
+    
+end
