@@ -14,7 +14,7 @@ rescue_from ActiveRecord::RecordInvalid, with: :render_unprocessable_entity_resp
     end
 
     def update
-        power = Power.find_by(id: params[:id])
+        power = Power.find_by!(id: params[:id])
         power.update!(power_params)
         render json: power
       end
