@@ -47,5 +47,3 @@ MIT License
 * Ruby on Rails Guides
 
 ---
-
-This project is still in development and I will regularly be updating it untill it's fully operational(It's operational at the moment but some tasks may fail to run since I'm still learning and familiarising with the Ruby and Rails environment)
